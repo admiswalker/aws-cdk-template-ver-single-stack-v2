@@ -2,10 +2,8 @@ import * as fs from 'fs';
 import * as cdk from 'aws-cdk-lib';
 import { Construct } from 'constructs';
 import * as ec2 from 'aws-cdk-lib/aws-ec2';
-import { InstanceType, NatInstanceImage, NatProvider } from 'aws-cdk-lib/aws-ec2';
 import * as iam from 'aws-cdk-lib/aws-iam';
 import { Stack, StackProps } from 'aws-cdk-lib';
-import { SubnetGroup } from 'aws-cdk-lib/aws-rds';
 
 interface AwsCdkTplStackProps extends StackProps {
 }
